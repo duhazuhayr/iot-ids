@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+streamlit
+joblib
+imbalanced-learn

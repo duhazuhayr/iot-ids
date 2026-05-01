@@ -1,0 +1,5 @@
+Hybrid System Evaluation Summary
+===============================
+Latency: 0.0023 ms/sample
+Zero-Day Detection Rate: 4.00%
+Overall Accuracy: 55.42%
