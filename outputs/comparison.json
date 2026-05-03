@@ -1,1 +1,1 @@
-[{"Model": "Teacher", "Size": "675.0 KB", "Accuracy": "99.9%", "Zero-Day": "Low"}, {"Model": "Student", "Size": "15.1 KB", "Accuracy": "94.2%", "Zero-Day": "Low"}, {"Model": "Hybrid (Ours)", "Size": "15.1 KB", "Accuracy": "92.7%", "Zero-Day": "High"}]
+[{"Model": "Teacher", "Size": "675.0 KB", "Accuracy": "99.9%", "Zero-Day": "Low"}, {"Model": "Student", "Size": "15.1 KB", "Accuracy": "94.2%", "Zero-Day": "Low"}, {"Model": "Hybrid (Ours)", "Size": "15.1 KB", "Accuracy": "91.6%", "Zero-Day": "High"}]

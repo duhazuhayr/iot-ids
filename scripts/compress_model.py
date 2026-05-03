@@ -1,4 +1,6 @@
+import sys, os; sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import torch
+import numpy as np
 import torch.nn.utils.prune as prune
 import os
 import joblib
@@ -41,6 +43,5 @@ def compress_model():
     if os.path.exists('models/saved/temp_orig.pth'):
         os.remove('models/saved/temp_orig.pth')
 
-import numpy as np
 if __name__ == "__main__":
     compress_model()

@@ -1,3 +1,4 @@
+import sys, os; sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -65,7 +66,7 @@ def train_teacher():
     # 5. Save
     if not os.path.exists('models/saved'):
         os.makedirs('models/saved')
-    torch.save(model.state_of_dict() if hasattr(model, 'state_of_dict') else model.state_dict(), 'models/saved/teacher_model.pth')
+    torch.save(model.state_dict(), 'models/saved/teacher_model.pth')
     print("Teacher model saved to models/saved/teacher_model.pth")
 
 if __name__ == "__main__":
